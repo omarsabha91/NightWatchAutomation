@@ -1,0 +1,20 @@
+{
+  "name": "nightwatchautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "test:chrome": "nightwatch --env chrome",
+    "test:firefox": "nightwatch --env firefox",
+    "test:buyer":"nightwatch tests/buyer",
+    "test:seller": "nightwatch tests/seller"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chromedriver": "^120.0.1",
+    "nightwatch": "^3.3.5"
+  }
+}
