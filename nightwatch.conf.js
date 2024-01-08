@@ -14,8 +14,9 @@
 
 module.exports = {
   src_folders: ["tests"],
+  page_objects_path: ["pages"],
 
-  webdriver: {
+webdriver: {
     start_process: true,
     server_path: require('chromedriver').path,
     port: 9515
